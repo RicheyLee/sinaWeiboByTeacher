@@ -1,0 +1,1217 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC37F83E1AE1012D0029518B /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC37F82C1AE1012D0029518B /* AFHTTPRequestOperation.m */; };
+		CC37F83F1AE1012D0029518B /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC37F82E1AE1012D0029518B /* AFHTTPRequestOperationManager.m */; };
+		CC37F8401AE1012D0029518B /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC37F8301AE1012D0029518B /* AFHTTPSessionManager.m */; };
+		CC37F8411AE1012D0029518B /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC37F8331AE1012D0029518B /* AFNetworkReachabilityManager.m */; };
+		CC37F8421AE1012D0029518B /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC37F8351AE1012D0029518B /* AFSecurityPolicy.m */; };
+		CC37F8431AE1012D0029518B /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC37F8371AE1012D0029518B /* AFURLConnectionOperation.m */; };
+		CC37F8441AE1012D0029518B /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CC37F8391AE1012D0029518B /* AFURLRequestSerialization.m */; };
+		CC37F8451AE1012D0029518B /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CC37F83B1AE1012D0029518B /* AFURLResponseSerialization.m */; };
+		CC37F8461AE1012D0029518B /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC37F83D1AE1012D0029518B /* AFURLSessionManager.m */; };
+		CC422C011AED0ACF00B41A92 /* FloStatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC422C001AED0ACF00B41A92 /* FloStatusModel.m */; };
+		CC42A2791AFE368E00D11ED3 /* FloUserInfoTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC42A2781AFE368E00D11ED3 /* FloUserInfoTVC.m */; };
+		CC42A27F1AFE44C500D11ED3 /* FloUserInfoHeaderV.m in Sources */ = {isa = PBXBuildFile; fileRef = CC42A27E1AFE44C500D11ED3 /* FloUserInfoHeaderV.m */; };
+		CC42A2811AFE545200D11ED3 /* img-2131165207.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC42A2801AFE545200D11ED3 /* img-2131165207.jpg */; };
+		CC4D87531AF50D8300EF1552 /* FloSendMessageModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4D87521AF50D8300EF1552 /* FloSendMessageModelView.m */; };
+		CC4D875B1AF5204C00EF1552 /* FloBtnControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4D875A1AF5204C00EF1552 /* FloBtnControl.m */; };
+		CC5086CA1AF9B72700BE6802 /* FloPromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5086C91AF9B72700BE6802 /* FloPromptView.m */; };
+		CC5086CD1AF9BFB800BE6802 /* FloUpdatePromptV.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5086CC1AF9BFB800BE6802 /* FloUpdatePromptV.m */; };
+		CC5086D01AF9D4B200BE6802 /* FloCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5086CF1AF9D4B200BE6802 /* FloCodeViewController.m */; };
+		CC5086D21AF9D51200BE6802 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5086D11AF9D51200BE6802 /* AVFoundation.framework */; };
+		CC5086D51AF9DBD900BE6802 /* FloCodeResultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5086D41AF9DBD900BE6802 /* FloCodeResultVC.m */; };
+		CC53C2551B022FA6000B9998 /* FloUserinfoPhotoTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC53C2541B022FA6000B9998 /* FloUserinfoPhotoTVC.m */; };
+		CC53C25E1B023A40000B9998 /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC53C2581B023A40000B9998 /* SDBrowserImageView.m */; };
+		CC53C25F1B023A40000B9998 /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = CC53C25A1B023A40000B9998 /* SDPhotoBrowser.m */; };
+		CC53C2601B023A40000B9998 /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC53C25D1B023A40000B9998 /* SDWaitingView.m */; };
+		CC56DE9F1AEBD22900896EB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC56DE9E1AEBD22900896EB0 /* Images.xcassets */; };
+		CC56DEA21AEBD49500896EB0 /* FloGuideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC56DEA11AEBD49500896EB0 /* FloGuideVC.m */; };
+		CC56DEA51AEBDE5E00896EB0 /* FloVCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC56DEA41AEBDE5E00896EB0 /* FloVCManager.m */; };
+		CC5A4F391AEDCB560099D82C /* FloSettingTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5A4F381AEDCB560099D82C /* FloSettingTVC.m */; };
+		CC5A4F3C1AEDCB8A0099D82C /* FloAccountManagerTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5A4F3B1AEDCB8A0099D82C /* FloAccountManagerTVC.m */; };
+		CC5A4F3F1AEDFCF00099D82C /* FloAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5A4F3E1AEDFCF00099D82C /* FloAccountCell.m */; };
+		CC5BAF5C1AE22E1900018B7A /* FloHomeTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5BAF5B1AE22E1900018B7A /* FloHomeTVC.m */; };
+		CC5BAF5F1AE22F9100018B7A /* FloMessageTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5BAF5E1AE22F9100018B7A /* FloMessageTVC.m */; };
+		CC5BAF621AE2309D00018B7A /* FloFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5BAF611AE2309D00018B7A /* FloFirstCell.m */; };
+		CC5BAF651AE230B100018B7A /* FloSecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5BAF641AE230B100018B7A /* FloSecondCell.m */; };
+		CC5BAF6E1AE2597500018B7A /* FloMeTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5BAF6D1AE2597500018B7A /* FloMeTVC.m */; };
+		CC5BAF741AE264EE00018B7A /* FloIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5BAF731AE264EE00018B7A /* FloIconCell.m */; };
+		CC5BAF771AE2650100018B7A /* FloCountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5BAF761AE2650100018B7A /* FloCountCell.m */; };
+		CC5BAF7A1AE2651600018B7A /* FloDefaultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5BAF791AE2651600018B7A /* FloDefaultCell.m */; };
+		CC5BAF7D1AE2696400018B7A /* FloUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5BAF7C1AE2696400018B7A /* FloUserInfo.m */; };
+		CC5BAF821AE27DF900018B7A /* FloTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5BAF811AE27DF900018B7A /* FloTabBarController.m */; };
+		CC5F5C101AE0ED0D00816DF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5F5C0F1AE0ED0D00816DF3 /* main.m */; };
+		CC5F5C131AE0ED0D00816DF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5F5C121AE0ED0D00816DF3 /* AppDelegate.m */; };
+		CC5F5C191AE0ED0D00816DF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5F5C171AE0ED0D00816DF3 /* Main.storyboard */; };
+		CC5F5C1E1AE0ED0D00816DF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5F5C1C1AE0ED0D00816DF3 /* LaunchScreen.xib */; };
+		CC5F5C2A1AE0ED0D00816DF3 /* Flo_WeiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5F5C291AE0ED0D00816DF3 /* Flo_WeiboTests.m */; };
+		CC5F5C361AE0FB2D00816DF3 /* FloSendMessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5F5C351AE0FB2D00816DF3 /* FloSendMessageVC.m */; };
+		CC5F5C3C1AE0FBAD00816DF3 /* FloAuthorizeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5F5C3B1AE0FBAD00816DF3 /* FloAuthorizeVC.m */; };
+		CC66E54F1AFC4C9D0020FBB1 /* FloCommentsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC66E54E1AFC4C9D0020FBB1 /* FloCommentsModel.m */; };
+		CC66E5521AFC4CAF0020FBB1 /* FloRepostModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC66E5511AFC4CAF0020FBB1 /* FloRepostModel.m */; };
+		CC66E5551AFC59D00020FBB1 /* FloUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CC66E5541AFC59D00020FBB1 /* FloUtilities.m */; };
+		CC66E5581AFC82890020FBB1 /* FloRepostComCellHeaderV.m in Sources */ = {isa = PBXBuildFile; fileRef = CC66E5571AFC82890020FBB1 /* FloRepostComCellHeaderV.m */; };
+		CC66E55A1AFC84630020FBB1 /* FloRepostComCellHeaderV.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC66E5591AFC84630020FBB1 /* FloRepostComCellHeaderV.xib */; };
+		CC6B9DA61AFBB1C800993158 /* FloStatusDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6B9DA51AFBB1C800993158 /* FloStatusDetailVC.m */; };
+		CC6B9DA91AFBB21100993158 /* FloRepostComCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6B9DA81AFBB21100993158 /* FloRepostComCell.m */; };
+		CC8E7E461B0050440011AAEE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8E7E451B0050440011AAEE /* AudioToolbox.framework */; };
+		CC8E7E481B0052DD0011AAEE /* msgcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCA1935D1AFFAAA7009FF033 /* msgcome.wav */; };
+		CC8E7E4D1B0072240011AAEE /* FloUserinfoFriendsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8E7E4C1B0072240011AAEE /* FloUserinfoFriendsTVC.m */; };
+		CC8E7E501B00723B0011AAEE /* FloUserinfoFavoriteTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8E7E4F1B00723B0011AAEE /* FloUserinfoFavoriteTVC.m */; };
+		CC8E7E5A1B00732B0011AAEE /* FloUserinfoFriendsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8E7E591B00732B0011AAEE /* FloUserinfoFriendsCell.m */; };
+		CC9C7CB81AFCE523005FF096 /* FloMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9C7CB71AFCE523005FF096 /* FloMessageCell.m */; };
+		CC9C7CBB1AFCE728005FF096 /* FloMessageDetailTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9C7CBA1AFCE728005FF096 /* FloMessageDetailTVC.m */; };
+		CCA193531AFF2727009FF033 /* FloUserInfoHeaderV.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA193521AFF2727009FF033 /* FloUserInfoHeaderV.xib */; };
+		CCA193561AFF4C4E009FF033 /* FloUserInfoPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA193551AFF4C4E009FF033 /* FloUserInfoPhotoCell.m */; };
+		CCA193591AFF4C6A009FF033 /* FloUserInfoHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA193581AFF4C6A009FF033 /* FloUserInfoHomeCell.m */; };
+		CCA1935C1AFF8F63009FF033 /* FloFollowUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA1935B1AFF8F63009FF033 /* FloFollowUserCell.m */; };
+		CCC697CE1AF34AA400A8D3E7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC697CD1AF34AA400A8D3E7 /* libsqlite3.dylib */; };
+		CCC697D71AF3932E00A8D3E7 /* FloHomeStatusFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC697D61AF3932E00A8D3E7 /* FloHomeStatusFooterCell.m */; };
+		CCCBC7111AF21AB90028C825 /* weibo.db in Resources */ = {isa = PBXBuildFile; fileRef = CCCBC7101AF21AB90028C825 /* weibo.db */; };
+		CCCBC7151AF223390028C825 /* FloDatabaseEngin.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCBC7141AF223390028C825 /* FloDatabaseEngin.m */; };
+		CCCBC7231AF24AB90028C825 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCBC7191AF24AB90028C825 /* FMDatabase.m */; };
+		CCCBC7241AF24AB90028C825 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCBC71B1AF24AB90028C825 /* FMDatabaseAdditions.m */; };
+		CCCBC7251AF24AB90028C825 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCBC71D1AF24AB90028C825 /* FMDatabasePool.m */; };
+		CCCBC7261AF24AB90028C825 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCBC71F1AF24AB90028C825 /* FMDatabaseQueue.m */; };
+		CCCBC7271AF24AB90028C825 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCBC7221AF24AB90028C825 /* FMResultSet.m */; };
+		CCCBC72A1AF25AFC0028C825 /* FloHomeStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCBC7291AF25AFC0028C825 /* FloHomeStatusCell.m */; };
+		CCD43DE71AE3B51C00EB91DF /* FloAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD43DE61AE3B51C00EB91DF /* FloAuthorization.m */; };
+		CCD8BE951B0329AB00776856 /* FloAboutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD8BE941B0329AB00776856 /* FloAboutVC.m */; };
+		CCD8BE981B03324A00776856 /* FloPostStatusWithPictureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD8BE971B03324A00776856 /* FloPostStatusWithPictureVC.m */; };
+		CCD8BE9B1B035E7400776856 /* FloPostStatusWithLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD8BE9A1B035E7400776856 /* FloPostStatusWithLocation.m */; };
+		CCD8BE9D1B03782900776856 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD8BE9C1B03782900776856 /* CoreLocation.framework */; };
+		CCE9A8021AE401DA0009A2FE /* FloDiscoverTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE9A8011AE401DA0009A2FE /* FloDiscoverTVC.m */; };
+		D9419A5A2440F62EAA8B554E /* libPods-Flo-Weibo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E34C8234CA940F9C00E9E1 /* libPods-Flo-Weibo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC5F5C241AE0ED0D00816DF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC5F5C021AE0ED0D00816DF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC5F5C091AE0ED0D00816DF3;
+			remoteInfo = "Flo-Weibo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57061C3DC0A05410D83B3505 /* Pods-Flo-Weibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flo-Weibo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flo-Weibo/Pods-Flo-Weibo.release.xcconfig"; sourceTree = "<group>"; };
+		8CEAE974A84263E2E8F47F15 /* Pods-Flo-Weibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flo-Weibo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flo-Weibo/Pods-Flo-Weibo.debug.xcconfig"; sourceTree = "<group>"; };
+		A4E34C8234CA940F9C00E9E1 /* libPods-Flo-Weibo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flo-Weibo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC37F82B1AE1012D0029518B /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		CC37F82C1AE1012D0029518B /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		CC37F82D1AE1012D0029518B /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		CC37F82E1AE1012D0029518B /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		CC37F82F1AE1012D0029518B /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		CC37F8301AE1012D0029518B /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CC37F8311AE1012D0029518B /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		CC37F8321AE1012D0029518B /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		CC37F8331AE1012D0029518B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CC37F8341AE1012D0029518B /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		CC37F8351AE1012D0029518B /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		CC37F8361AE1012D0029518B /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		CC37F8371AE1012D0029518B /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		CC37F8381AE1012D0029518B /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		CC37F8391AE1012D0029518B /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		CC37F83A1AE1012D0029518B /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		CC37F83B1AE1012D0029518B /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		CC37F83C1AE1012D0029518B /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		CC37F83D1AE1012D0029518B /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		CC422BFF1AED0ACF00B41A92 /* FloStatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloStatusModel.h; sourceTree = "<group>"; };
+		CC422C001AED0ACF00B41A92 /* FloStatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloStatusModel.m; sourceTree = "<group>"; };
+		CC42A2771AFE368E00D11ED3 /* FloUserInfoTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloUserInfoTVC.h; sourceTree = "<group>"; };
+		CC42A2781AFE368E00D11ED3 /* FloUserInfoTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloUserInfoTVC.m; sourceTree = "<group>"; };
+		CC42A27D1AFE44C500D11ED3 /* FloUserInfoHeaderV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloUserInfoHeaderV.h; sourceTree = "<group>"; };
+		CC42A27E1AFE44C500D11ED3 /* FloUserInfoHeaderV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloUserInfoHeaderV.m; sourceTree = "<group>"; };
+		CC42A2801AFE545200D11ED3 /* img-2131165207.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img-2131165207.jpg"; sourceTree = "<group>"; };
+		CC4D87511AF50D8300EF1552 /* FloSendMessageModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloSendMessageModelView.h; sourceTree = "<group>"; };
+		CC4D87521AF50D8300EF1552 /* FloSendMessageModelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloSendMessageModelView.m; sourceTree = "<group>"; };
+		CC4D87591AF5204C00EF1552 /* FloBtnControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloBtnControl.h; sourceTree = "<group>"; };
+		CC4D875A1AF5204C00EF1552 /* FloBtnControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloBtnControl.m; sourceTree = "<group>"; };
+		CC5086C81AF9B72700BE6802 /* FloPromptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloPromptView.h; sourceTree = "<group>"; };
+		CC5086C91AF9B72700BE6802 /* FloPromptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloPromptView.m; sourceTree = "<group>"; };
+		CC5086CB1AF9BFB800BE6802 /* FloUpdatePromptV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloUpdatePromptV.h; sourceTree = "<group>"; };
+		CC5086CC1AF9BFB800BE6802 /* FloUpdatePromptV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloUpdatePromptV.m; sourceTree = "<group>"; };
+		CC5086CE1AF9D4B200BE6802 /* FloCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloCodeViewController.h; sourceTree = "<group>"; };
+		CC5086CF1AF9D4B200BE6802 /* FloCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloCodeViewController.m; sourceTree = "<group>"; };
+		CC5086D11AF9D51200BE6802 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CC5086D31AF9DBD900BE6802 /* FloCodeResultVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloCodeResultVC.h; sourceTree = "<group>"; };
+		CC5086D41AF9DBD900BE6802 /* FloCodeResultVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloCodeResultVC.m; sourceTree = "<group>"; };
+		CC53C2531B022FA6000B9998 /* FloUserinfoPhotoTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloUserinfoPhotoTVC.h; sourceTree = "<group>"; };
+		CC53C2541B022FA6000B9998 /* FloUserinfoPhotoTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloUserinfoPhotoTVC.m; sourceTree = "<group>"; };
+		CC53C2571B023A40000B9998 /* SDBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBrowserImageView.h; sourceTree = "<group>"; };
+		CC53C2581B023A40000B9998 /* SDBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBrowserImageView.m; sourceTree = "<group>"; };
+		CC53C2591B023A40000B9998 /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
+		CC53C25A1B023A40000B9998 /* SDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPhotoBrowser.m; sourceTree = "<group>"; };
+		CC53C25B1B023A40000B9998 /* SDPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		CC53C25C1B023A40000B9998 /* SDWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWaitingView.h; sourceTree = "<group>"; };
+		CC53C25D1B023A40000B9998 /* SDWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWaitingView.m; sourceTree = "<group>"; };
+		CC56DE9E1AEBD22900896EB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC56DEA01AEBD49500896EB0 /* FloGuideVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloGuideVC.h; sourceTree = "<group>"; };
+		CC56DEA11AEBD49500896EB0 /* FloGuideVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloGuideVC.m; sourceTree = "<group>"; };
+		CC56DEA31AEBDE5E00896EB0 /* FloVCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloVCManager.h; sourceTree = "<group>"; };
+		CC56DEA41AEBDE5E00896EB0 /* FloVCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloVCManager.m; sourceTree = "<group>"; };
+		CC5A4F371AEDCB560099D82C /* FloSettingTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloSettingTVC.h; sourceTree = "<group>"; };
+		CC5A4F381AEDCB560099D82C /* FloSettingTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloSettingTVC.m; sourceTree = "<group>"; };
+		CC5A4F3A1AEDCB8A0099D82C /* FloAccountManagerTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloAccountManagerTVC.h; sourceTree = "<group>"; };
+		CC5A4F3B1AEDCB8A0099D82C /* FloAccountManagerTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloAccountManagerTVC.m; sourceTree = "<group>"; };
+		CC5A4F3D1AEDFCF00099D82C /* FloAccountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloAccountCell.h; sourceTree = "<group>"; };
+		CC5A4F3E1AEDFCF00099D82C /* FloAccountCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloAccountCell.m; sourceTree = "<group>"; };
+		CC5BAF5A1AE22E1900018B7A /* FloHomeTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloHomeTVC.h; sourceTree = "<group>"; };
+		CC5BAF5B1AE22E1900018B7A /* FloHomeTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloHomeTVC.m; sourceTree = "<group>"; };
+		CC5BAF5D1AE22F9100018B7A /* FloMessageTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloMessageTVC.h; sourceTree = "<group>"; };
+		CC5BAF5E1AE22F9100018B7A /* FloMessageTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloMessageTVC.m; sourceTree = "<group>"; };
+		CC5BAF601AE2309D00018B7A /* FloFirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloFirstCell.h; sourceTree = "<group>"; };
+		CC5BAF611AE2309D00018B7A /* FloFirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloFirstCell.m; sourceTree = "<group>"; };
+		CC5BAF631AE230B100018B7A /* FloSecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloSecondCell.h; sourceTree = "<group>"; };
+		CC5BAF641AE230B100018B7A /* FloSecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloSecondCell.m; sourceTree = "<group>"; };
+		CC5BAF6C1AE2597500018B7A /* FloMeTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloMeTVC.h; sourceTree = "<group>"; };
+		CC5BAF6D1AE2597500018B7A /* FloMeTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloMeTVC.m; sourceTree = "<group>"; };
+		CC5BAF721AE264EE00018B7A /* FloIconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloIconCell.h; sourceTree = "<group>"; };
+		CC5BAF731AE264EE00018B7A /* FloIconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloIconCell.m; sourceTree = "<group>"; };
+		CC5BAF751AE2650100018B7A /* FloCountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloCountCell.h; sourceTree = "<group>"; };
+		CC5BAF761AE2650100018B7A /* FloCountCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloCountCell.m; sourceTree = "<group>"; };
+		CC5BAF781AE2651600018B7A /* FloDefaultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloDefaultCell.h; sourceTree = "<group>"; };
+		CC5BAF791AE2651600018B7A /* FloDefaultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloDefaultCell.m; sourceTree = "<group>"; };
+		CC5BAF7B1AE2696400018B7A /* FloUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloUserInfo.h; sourceTree = "<group>"; };
+		CC5BAF7C1AE2696400018B7A /* FloUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloUserInfo.m; sourceTree = "<group>"; };
+		CC5BAF801AE27DF900018B7A /* FloTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloTabBarController.h; sourceTree = "<group>"; };
+		CC5BAF811AE27DF900018B7A /* FloTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloTabBarController.m; sourceTree = "<group>"; };
+		CC5F5C0A1AE0ED0D00816DF3 /* Flo-Weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flo-Weibo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5F5C0E1AE0ED0D00816DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC5F5C0F1AE0ED0D00816DF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC5F5C111AE0ED0D00816DF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC5F5C121AE0ED0D00816DF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC5F5C181AE0ED0D00816DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC5F5C1D1AE0ED0D00816DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CC5F5C231AE0ED0D00816DF3 /* Flo-WeiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flo-WeiboTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5F5C281AE0ED0D00816DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC5F5C291AE0ED0D00816DF3 /* Flo_WeiboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flo_WeiboTests.m; sourceTree = "<group>"; };
+		CC5F5C331AE0EE3D00816DF3 /* comments.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comments.h; sourceTree = "<group>"; };
+		CC5F5C341AE0FB2D00816DF3 /* FloSendMessageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloSendMessageVC.h; sourceTree = "<group>"; };
+		CC5F5C351AE0FB2D00816DF3 /* FloSendMessageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloSendMessageVC.m; sourceTree = "<group>"; };
+		CC5F5C3A1AE0FBAD00816DF3 /* FloAuthorizeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloAuthorizeVC.h; sourceTree = "<group>"; };
+		CC5F5C3B1AE0FBAD00816DF3 /* FloAuthorizeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloAuthorizeVC.m; sourceTree = "<group>"; };
+		CC66E54D1AFC4C9D0020FBB1 /* FloCommentsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloCommentsModel.h; sourceTree = "<group>"; };
+		CC66E54E1AFC4C9D0020FBB1 /* FloCommentsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloCommentsModel.m; sourceTree = "<group>"; };
+		CC66E5501AFC4CAF0020FBB1 /* FloRepostModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloRepostModel.h; sourceTree = "<group>"; };
+		CC66E5511AFC4CAF0020FBB1 /* FloRepostModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloRepostModel.m; sourceTree = "<group>"; };
+		CC66E5531AFC59D00020FBB1 /* FloUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloUtilities.h; sourceTree = "<group>"; };
+		CC66E5541AFC59D00020FBB1 /* FloUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloUtilities.m; sourceTree = "<group>"; };
+		CC66E5561AFC82890020FBB1 /* FloRepostComCellHeaderV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloRepostComCellHeaderV.h; sourceTree = "<group>"; };
+		CC66E5571AFC82890020FBB1 /* FloRepostComCellHeaderV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloRepostComCellHeaderV.m; sourceTree = "<group>"; };
+		CC66E5591AFC84630020FBB1 /* FloRepostComCellHeaderV.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FloRepostComCellHeaderV.xib; sourceTree = "<group>"; };
+		CC6B9DA41AFBB1C800993158 /* FloStatusDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloStatusDetailVC.h; sourceTree = "<group>"; };
+		CC6B9DA51AFBB1C800993158 /* FloStatusDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloStatusDetailVC.m; sourceTree = "<group>"; };
+		CC6B9DA71AFBB21100993158 /* FloRepostComCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloRepostComCell.h; sourceTree = "<group>"; };
+		CC6B9DA81AFBB21100993158 /* FloRepostComCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloRepostComCell.m; sourceTree = "<group>"; };
+		CC8E7E451B0050440011AAEE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CC8E7E4B1B0072240011AAEE /* FloUserinfoFriendsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloUserinfoFriendsTVC.h; sourceTree = "<group>"; };
+		CC8E7E4C1B0072240011AAEE /* FloUserinfoFriendsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloUserinfoFriendsTVC.m; sourceTree = "<group>"; };
+		CC8E7E4E1B00723B0011AAEE /* FloUserinfoFavoriteTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloUserinfoFavoriteTVC.h; sourceTree = "<group>"; };
+		CC8E7E4F1B00723B0011AAEE /* FloUserinfoFavoriteTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloUserinfoFavoriteTVC.m; sourceTree = "<group>"; };
+		CC8E7E581B00732B0011AAEE /* FloUserinfoFriendsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloUserinfoFriendsCell.h; sourceTree = "<group>"; };
+		CC8E7E591B00732B0011AAEE /* FloUserinfoFriendsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloUserinfoFriendsCell.m; sourceTree = "<group>"; };
+		CC9C7CB61AFCE523005FF096 /* FloMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloMessageCell.h; sourceTree = "<group>"; };
+		CC9C7CB71AFCE523005FF096 /* FloMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloMessageCell.m; sourceTree = "<group>"; };
+		CC9C7CB91AFCE728005FF096 /* FloMessageDetailTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloMessageDetailTVC.h; sourceTree = "<group>"; };
+		CC9C7CBA1AFCE728005FF096 /* FloMessageDetailTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloMessageDetailTVC.m; sourceTree = "<group>"; };
+		CCA193521AFF2727009FF033 /* FloUserInfoHeaderV.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FloUserInfoHeaderV.xib; sourceTree = "<group>"; };
+		CCA193541AFF4C4E009FF033 /* FloUserInfoPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloUserInfoPhotoCell.h; sourceTree = "<group>"; };
+		CCA193551AFF4C4E009FF033 /* FloUserInfoPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloUserInfoPhotoCell.m; sourceTree = "<group>"; };
+		CCA193571AFF4C6A009FF033 /* FloUserInfoHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloUserInfoHomeCell.h; sourceTree = "<group>"; };
+		CCA193581AFF4C6A009FF033 /* FloUserInfoHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloUserInfoHomeCell.m; sourceTree = "<group>"; };
+		CCA1935A1AFF8F63009FF033 /* FloFollowUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloFollowUserCell.h; sourceTree = "<group>"; };
+		CCA1935B1AFF8F63009FF033 /* FloFollowUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloFollowUserCell.m; sourceTree = "<group>"; };
+		CCA1935D1AFFAAA7009FF033 /* msgcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = msgcome.wav; sourceTree = "<group>"; };
+		CCC697CD1AF34AA400A8D3E7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CCC697D51AF3932E00A8D3E7 /* FloHomeStatusFooterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloHomeStatusFooterCell.h; sourceTree = "<group>"; };
+		CCC697D61AF3932E00A8D3E7 /* FloHomeStatusFooterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloHomeStatusFooterCell.m; sourceTree = "<group>"; };
+		CCCBC7101AF21AB90028C825 /* weibo.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = weibo.db; sourceTree = "<group>"; };
+		CCCBC7131AF223390028C825 /* FloDatabaseEngin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloDatabaseEngin.h; sourceTree = "<group>"; };
+		CCCBC7141AF223390028C825 /* FloDatabaseEngin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloDatabaseEngin.m; sourceTree = "<group>"; };
+		CCCBC7181AF24AB90028C825 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		CCCBC7191AF24AB90028C825 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		CCCBC71A1AF24AB90028C825 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		CCCBC71B1AF24AB90028C825 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		CCCBC71C1AF24AB90028C825 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		CCCBC71D1AF24AB90028C825 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		CCCBC71E1AF24AB90028C825 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		CCCBC71F1AF24AB90028C825 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		CCCBC7201AF24AB90028C825 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		CCCBC7211AF24AB90028C825 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		CCCBC7221AF24AB90028C825 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		CCCBC7281AF25AFC0028C825 /* FloHomeStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloHomeStatusCell.h; sourceTree = "<group>"; };
+		CCCBC7291AF25AFC0028C825 /* FloHomeStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloHomeStatusCell.m; sourceTree = "<group>"; };
+		CCD43DE51AE3B51C00EB91DF /* FloAuthorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloAuthorization.h; sourceTree = "<group>"; };
+		CCD43DE61AE3B51C00EB91DF /* FloAuthorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloAuthorization.m; sourceTree = "<group>"; };
+		CCD8BE931B0329AB00776856 /* FloAboutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloAboutVC.h; sourceTree = "<group>"; };
+		CCD8BE941B0329AB00776856 /* FloAboutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloAboutVC.m; sourceTree = "<group>"; };
+		CCD8BE961B03324A00776856 /* FloPostStatusWithPictureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloPostStatusWithPictureVC.h; sourceTree = "<group>"; };
+		CCD8BE971B03324A00776856 /* FloPostStatusWithPictureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloPostStatusWithPictureVC.m; sourceTree = "<group>"; };
+		CCD8BE991B035E7400776856 /* FloPostStatusWithLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloPostStatusWithLocation.h; sourceTree = "<group>"; };
+		CCD8BE9A1B035E7400776856 /* FloPostStatusWithLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloPostStatusWithLocation.m; sourceTree = "<group>"; };
+		CCD8BE9C1B03782900776856 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CCE9A8001AE401DA0009A2FE /* FloDiscoverTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloDiscoverTVC.h; sourceTree = "<group>"; };
+		CCE9A8011AE401DA0009A2FE /* FloDiscoverTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloDiscoverTVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC5F5C071AE0ED0D00816DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD8BE9D1B03782900776856 /* CoreLocation.framework in Frameworks */,
+				CC8E7E461B0050440011AAEE /* AudioToolbox.framework in Frameworks */,
+				CC5086D21AF9D51200BE6802 /* AVFoundation.framework in Frameworks */,
+				CCC697CE1AF34AA400A8D3E7 /* libsqlite3.dylib in Frameworks */,
+				D9419A5A2440F62EAA8B554E /* libPods-Flo-Weibo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5F5C201AE0ED0D00816DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63E98FC63C97BC02B5ACDC01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CEAE974A84263E2E8F47F15 /* Pods-Flo-Weibo.debug.xcconfig */,
+				57061C3DC0A05410D83B3505 /* Pods-Flo-Weibo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E16DC43649F444E1DD5AA2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCD8BE9C1B03782900776856 /* CoreLocation.framework */,
+				CC8E7E451B0050440011AAEE /* AudioToolbox.framework */,
+				CC5086D11AF9D51200BE6802 /* AVFoundation.framework */,
+				A4E34C8234CA940F9C00E9E1 /* libPods-Flo-Weibo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC37F82A1AE1012D0029518B /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CC37F82B1AE1012D0029518B /* AFHTTPRequestOperation.h */,
+				CC37F82C1AE1012D0029518B /* AFHTTPRequestOperation.m */,
+				CC37F82D1AE1012D0029518B /* AFHTTPRequestOperationManager.h */,
+				CC37F82E1AE1012D0029518B /* AFHTTPRequestOperationManager.m */,
+				CC37F82F1AE1012D0029518B /* AFHTTPSessionManager.h */,
+				CC37F8301AE1012D0029518B /* AFHTTPSessionManager.m */,
+				CC37F8311AE1012D0029518B /* AFNetworking.h */,
+				CC37F8321AE1012D0029518B /* AFNetworkReachabilityManager.h */,
+				CC37F8331AE1012D0029518B /* AFNetworkReachabilityManager.m */,
+				CC37F8341AE1012D0029518B /* AFSecurityPolicy.h */,
+				CC37F8351AE1012D0029518B /* AFSecurityPolicy.m */,
+				CC37F8361AE1012D0029518B /* AFURLConnectionOperation.h */,
+				CC37F8371AE1012D0029518B /* AFURLConnectionOperation.m */,
+				CC37F8381AE1012D0029518B /* AFURLRequestSerialization.h */,
+				CC37F8391AE1012D0029518B /* AFURLRequestSerialization.m */,
+				CC37F83A1AE1012D0029518B /* AFURLResponseSerialization.h */,
+				CC37F83B1AE1012D0029518B /* AFURLResponseSerialization.m */,
+				CC37F83C1AE1012D0029518B /* AFURLSessionManager.h */,
+				CC37F83D1AE1012D0029518B /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		CC422BFC1AED0A8800B41A92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC5BAF5A1AE22E1900018B7A /* FloHomeTVC.h */,
+				CC5BAF5B1AE22E1900018B7A /* FloHomeTVC.m */,
+				CC5086CE1AF9D4B200BE6802 /* FloCodeViewController.h */,
+				CC5086CF1AF9D4B200BE6802 /* FloCodeViewController.m */,
+				CC5086D31AF9DBD900BE6802 /* FloCodeResultVC.h */,
+				CC5086D41AF9DBD900BE6802 /* FloCodeResultVC.m */,
+				CC6B9DA41AFBB1C800993158 /* FloStatusDetailVC.h */,
+				CC6B9DA51AFBB1C800993158 /* FloStatusDetailVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CC422BFD1AED0A9500B41A92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC422BFF1AED0ACF00B41A92 /* FloStatusModel.h */,
+				CC422C001AED0ACF00B41A92 /* FloStatusModel.m */,
+				CC66E54D1AFC4C9D0020FBB1 /* FloCommentsModel.h */,
+				CC66E54E1AFC4C9D0020FBB1 /* FloCommentsModel.m */,
+				CC66E5501AFC4CAF0020FBB1 /* FloRepostModel.h */,
+				CC66E5511AFC4CAF0020FBB1 /* FloRepostModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CC422BFE1AED0A9C00B41A92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CCCBC7281AF25AFC0028C825 /* FloHomeStatusCell.h */,
+				CCCBC7291AF25AFC0028C825 /* FloHomeStatusCell.m */,
+				CCC697D51AF3932E00A8D3E7 /* FloHomeStatusFooterCell.h */,
+				CCC697D61AF3932E00A8D3E7 /* FloHomeStatusFooterCell.m */,
+				CC5086CB1AF9BFB800BE6802 /* FloUpdatePromptV.h */,
+				CC5086CC1AF9BFB800BE6802 /* FloUpdatePromptV.m */,
+				CC6B9DA71AFBB21100993158 /* FloRepostComCell.h */,
+				CC6B9DA81AFBB21100993158 /* FloRepostComCell.m */,
+				CC66E5561AFC82890020FBB1 /* FloRepostComCellHeaderV.h */,
+				CC66E5571AFC82890020FBB1 /* FloRepostComCellHeaderV.m */,
+				CC66E5591AFC84630020FBB1 /* FloRepostComCellHeaderV.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CC4D874E1AF50CF200EF1552 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC4D87511AF50D8300EF1552 /* FloSendMessageModelView.h */,
+				CC4D87521AF50D8300EF1552 /* FloSendMessageModelView.m */,
+				CC4D87591AF5204C00EF1552 /* FloBtnControl.h */,
+				CC4D875A1AF5204C00EF1552 /* FloBtnControl.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CC4D87501AF50D1300EF1552 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC5F5C341AE0FB2D00816DF3 /* FloSendMessageVC.h */,
+				CC5F5C351AE0FB2D00816DF3 /* FloSendMessageVC.m */,
+				CCD8BE961B03324A00776856 /* FloPostStatusWithPictureVC.h */,
+				CCD8BE971B03324A00776856 /* FloPostStatusWithPictureVC.m */,
+				CCD8BE991B035E7400776856 /* FloPostStatusWithLocation.h */,
+				CCD8BE9A1B035E7400776856 /* FloPostStatusWithLocation.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CC4D87561AF51DBD00EF1552 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CC53C2561B023A40000B9998 /* SDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				CC53C2571B023A40000B9998 /* SDBrowserImageView.h */,
+				CC53C2581B023A40000B9998 /* SDBrowserImageView.m */,
+				CC53C2591B023A40000B9998 /* SDPhotoBrowser.h */,
+				CC53C25A1B023A40000B9998 /* SDPhotoBrowser.m */,
+				CC53C25B1B023A40000B9998 /* SDPhotoBrowserConfig.h */,
+				CC53C25C1B023A40000B9998 /* SDWaitingView.h */,
+				CC53C25D1B023A40000B9998 /* SDWaitingView.m */,
+			);
+			path = SDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		CC5BAF521AE225F100018B7A /* home */ = {
+			isa = PBXGroup;
+			children = (
+				CC422BFE1AED0A9C00B41A92 /* View */,
+				CC422BFD1AED0A9500B41A92 /* Model */,
+				CC422BFC1AED0A8800B41A92 /* Controller */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		CC5BAF531AE2266A00018B7A /* postMessage */ = {
+			isa = PBXGroup;
+			children = (
+				CC4D87561AF51DBD00EF1552 /* Model */,
+				CC4D874E1AF50CF200EF1552 /* View */,
+				CC4D87501AF50D1300EF1552 /* Controller */,
+			);
+			name = postMessage;
+			sourceTree = "<group>";
+		};
+		CC5BAF541AE226BC00018B7A /* message */ = {
+			isa = PBXGroup;
+			children = (
+				CC9C7CB51AFCE4F6005FF096 /* Model */,
+				CC5BAF7E1AE2698D00018B7A /* View */,
+				CC5BAF7F1AE2699A00018B7A /* Controller */,
+			);
+			name = message;
+			sourceTree = "<group>";
+		};
+		CC5BAF551AE226CA00018B7A /* discover */ = {
+			isa = PBXGroup;
+			children = (
+				CC9C7CB41AFCAFA2005FF096 /* Model */,
+				CC9C7CB31AFCAF9B005FF096 /* View */,
+				CC9C7CB21AFCAF8D005FF096 /* Controller */,
+			);
+			name = discover;
+			sourceTree = "<group>";
+		};
+		CC5BAF561AE226E000018B7A /* me */ = {
+			isa = PBXGroup;
+			children = (
+				CC5BAF701AE2647E00018B7A /* Model */,
+				CC5BAF711AE264BD00018B7A /* View */,
+				CC5BAF6F1AE2646D00018B7A /* Controller */,
+			);
+			name = me;
+			sourceTree = "<group>";
+		};
+		CC5BAF6F1AE2646D00018B7A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC5BAF6C1AE2597500018B7A /* FloMeTVC.h */,
+				CC5BAF6D1AE2597500018B7A /* FloMeTVC.m */,
+				CC5A4F371AEDCB560099D82C /* FloSettingTVC.h */,
+				CC5A4F381AEDCB560099D82C /* FloSettingTVC.m */,
+				CC5A4F3A1AEDCB8A0099D82C /* FloAccountManagerTVC.h */,
+				CC5A4F3B1AEDCB8A0099D82C /* FloAccountManagerTVC.m */,
+				CC42A2771AFE368E00D11ED3 /* FloUserInfoTVC.h */,
+				CC42A2781AFE368E00D11ED3 /* FloUserInfoTVC.m */,
+				CC8E7E4B1B0072240011AAEE /* FloUserinfoFriendsTVC.h */,
+				CC8E7E4C1B0072240011AAEE /* FloUserinfoFriendsTVC.m */,
+				CC8E7E4E1B00723B0011AAEE /* FloUserinfoFavoriteTVC.h */,
+				CC8E7E4F1B00723B0011AAEE /* FloUserinfoFavoriteTVC.m */,
+				CC53C2531B022FA6000B9998 /* FloUserinfoPhotoTVC.h */,
+				CC53C2541B022FA6000B9998 /* FloUserinfoPhotoTVC.m */,
+				CCD8BE931B0329AB00776856 /* FloAboutVC.h */,
+				CCD8BE941B0329AB00776856 /* FloAboutVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CC5BAF701AE2647E00018B7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC5BAF7B1AE2696400018B7A /* FloUserInfo.h */,
+				CC5BAF7C1AE2696400018B7A /* FloUserInfo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CC5BAF711AE264BD00018B7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC8E7E571B0072E50011AAEE /* me_detail */,
+				CC8E7E541B0072930011AAEE /* me */,
+				CC8E7E551B0072B50011AAEE /* accountManager */,
+				CC8E7E561B0072D70011AAEE /* userinfo */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CC5BAF7E1AE2698D00018B7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC5BAF601AE2309D00018B7A /* FloFirstCell.h */,
+				CC5BAF611AE2309D00018B7A /* FloFirstCell.m */,
+				CC5BAF631AE230B100018B7A /* FloSecondCell.h */,
+				CC5BAF641AE230B100018B7A /* FloSecondCell.m */,
+				CC9C7CB61AFCE523005FF096 /* FloMessageCell.h */,
+				CC9C7CB71AFCE523005FF096 /* FloMessageCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CC5BAF7F1AE2699A00018B7A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC5BAF5D1AE22F9100018B7A /* FloMessageTVC.h */,
+				CC5BAF5E1AE22F9100018B7A /* FloMessageTVC.m */,
+				CC9C7CB91AFCE728005FF096 /* FloMessageDetailTVC.h */,
+				CC9C7CBA1AFCE728005FF096 /* FloMessageDetailTVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CC5F5C011AE0ED0D00816DF3 = {
+			isa = PBXGroup;
+			children = (
+				CCC697CF1AF34AC800A8D3E7 /* Libraries */,
+				CC5F5C0C1AE0ED0D00816DF3 /* Flo-Weibo */,
+				CC5F5C261AE0ED0D00816DF3 /* Flo-WeiboTests */,
+				CC5F5C0B1AE0ED0D00816DF3 /* Products */,
+				63E98FC63C97BC02B5ACDC01 /* Pods */,
+				7E16DC43649F444E1DD5AA2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC5F5C0B1AE0ED0D00816DF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC5F5C0A1AE0ED0D00816DF3 /* Flo-Weibo.app */,
+				CC5F5C231AE0ED0D00816DF3 /* Flo-WeiboTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC5F5C0C1AE0ED0D00816DF3 /* Flo-Weibo */ = {
+			isa = PBXGroup;
+			children = (
+				CC662C331AFB89AF001E7A36 /* Utilities */,
+				CCCBC7161AF24A800028C825 /* OpenSource */,
+				CCCBC7121AF223000028C825 /* DataBase */,
+				CC5BAF521AE225F100018B7A /* home */,
+				CC5BAF541AE226BC00018B7A /* message */,
+				CC5BAF531AE2266A00018B7A /* postMessage */,
+				CC5BAF551AE226CA00018B7A /* discover */,
+				CC5BAF561AE226E000018B7A /* me */,
+				CCD43DE11AE3B45400EB91DF /* Global */,
+				CC5F5C171AE0ED0D00816DF3 /* Main.storyboard */,
+				CC5F5C331AE0EE3D00816DF3 /* comments.h */,
+				CC5F5C1C1AE0ED0D00816DF3 /* LaunchScreen.xib */,
+				CC56DE9E1AEBD22900896EB0 /* Images.xcassets */,
+				CC8E7E441B0040180011AAEE /* Audio */,
+				CC5F5C0D1AE0ED0D00816DF3 /* Supporting Files */,
+			);
+			path = "Flo-Weibo";
+			sourceTree = "<group>";
+		};
+		CC5F5C0D1AE0ED0D00816DF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC42A2801AFE545200D11ED3 /* img-2131165207.jpg */,
+				CC5F5C111AE0ED0D00816DF3 /* AppDelegate.h */,
+				CC5F5C121AE0ED0D00816DF3 /* AppDelegate.m */,
+				CC5F5C0E1AE0ED0D00816DF3 /* Info.plist */,
+				CC5F5C0F1AE0ED0D00816DF3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC5F5C261AE0ED0D00816DF3 /* Flo-WeiboTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC5F5C291AE0ED0D00816DF3 /* Flo_WeiboTests.m */,
+				CC5F5C271AE0ED0D00816DF3 /* Supporting Files */,
+			);
+			path = "Flo-WeiboTests";
+			sourceTree = "<group>";
+		};
+		CC5F5C271AE0ED0D00816DF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC5F5C281AE0ED0D00816DF3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC662C331AFB89AF001E7A36 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CC5086C81AF9B72700BE6802 /* FloPromptView.h */,
+				CC5086C91AF9B72700BE6802 /* FloPromptView.m */,
+				CC66E5531AFC59D00020FBB1 /* FloUtilities.h */,
+				CC66E5541AFC59D00020FBB1 /* FloUtilities.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		CC8E7E441B0040180011AAEE /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				CCA1935D1AFFAAA7009FF033 /* msgcome.wav */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		CC8E7E541B0072930011AAEE /* me */ = {
+			isa = PBXGroup;
+			children = (
+				CC5BAF721AE264EE00018B7A /* FloIconCell.h */,
+				CC5BAF731AE264EE00018B7A /* FloIconCell.m */,
+				CC5BAF751AE2650100018B7A /* FloCountCell.h */,
+				CC5BAF761AE2650100018B7A /* FloCountCell.m */,
+				CC5BAF781AE2651600018B7A /* FloDefaultCell.h */,
+				CC5BAF791AE2651600018B7A /* FloDefaultCell.m */,
+			);
+			name = me;
+			sourceTree = "<group>";
+		};
+		CC8E7E551B0072B50011AAEE /* accountManager */ = {
+			isa = PBXGroup;
+			children = (
+				CC5A4F3D1AEDFCF00099D82C /* FloAccountCell.h */,
+				CC5A4F3E1AEDFCF00099D82C /* FloAccountCell.m */,
+			);
+			name = accountManager;
+			sourceTree = "<group>";
+		};
+		CC8E7E561B0072D70011AAEE /* userinfo */ = {
+			isa = PBXGroup;
+			children = (
+				CC42A27D1AFE44C500D11ED3 /* FloUserInfoHeaderV.h */,
+				CC42A27E1AFE44C500D11ED3 /* FloUserInfoHeaderV.m */,
+				CCA193521AFF2727009FF033 /* FloUserInfoHeaderV.xib */,
+				CCA193541AFF4C4E009FF033 /* FloUserInfoPhotoCell.h */,
+				CCA193551AFF4C4E009FF033 /* FloUserInfoPhotoCell.m */,
+				CCA193571AFF4C6A009FF033 /* FloUserInfoHomeCell.h */,
+				CCA193581AFF4C6A009FF033 /* FloUserInfoHomeCell.m */,
+				CCA1935A1AFF8F63009FF033 /* FloFollowUserCell.h */,
+				CCA1935B1AFF8F63009FF033 /* FloFollowUserCell.m */,
+			);
+			name = userinfo;
+			sourceTree = "<group>";
+		};
+		CC8E7E571B0072E50011AAEE /* me_detail */ = {
+			isa = PBXGroup;
+			children = (
+				CC8E7E581B00732B0011AAEE /* FloUserinfoFriendsCell.h */,
+				CC8E7E591B00732B0011AAEE /* FloUserinfoFriendsCell.m */,
+			);
+			name = me_detail;
+			sourceTree = "<group>";
+		};
+		CC9C7CB21AFCAF8D005FF096 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCE9A8001AE401DA0009A2FE /* FloDiscoverTVC.h */,
+				CCE9A8011AE401DA0009A2FE /* FloDiscoverTVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CC9C7CB31AFCAF9B005FF096 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CC9C7CB41AFCAFA2005FF096 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CC9C7CB51AFCE4F6005FF096 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CCC697CF1AF34AC800A8D3E7 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				CCC697CD1AF34AA400A8D3E7 /* libsqlite3.dylib */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		CCCBC7121AF223000028C825 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				CCCBC7101AF21AB90028C825 /* weibo.db */,
+				CCCBC7131AF223390028C825 /* FloDatabaseEngin.h */,
+				CCCBC7141AF223390028C825 /* FloDatabaseEngin.m */,
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		CCCBC7161AF24A800028C825 /* OpenSource */ = {
+			isa = PBXGroup;
+			children = (
+				CC53C2561B023A40000B9998 /* SDPhotoBrowser */,
+				CCCBC7171AF24AB90028C825 /* fmdb */,
+				CC37F82A1AE1012D0029518B /* AFNetworking */,
+			);
+			name = OpenSource;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CCCBC7171AF24AB90028C825 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				CCCBC7181AF24AB90028C825 /* FMDatabase.h */,
+				CCCBC7191AF24AB90028C825 /* FMDatabase.m */,
+				CCCBC71A1AF24AB90028C825 /* FMDatabaseAdditions.h */,
+				CCCBC71B1AF24AB90028C825 /* FMDatabaseAdditions.m */,
+				CCCBC71C1AF24AB90028C825 /* FMDatabasePool.h */,
+				CCCBC71D1AF24AB90028C825 /* FMDatabasePool.m */,
+				CCCBC71E1AF24AB90028C825 /* FMDatabaseQueue.h */,
+				CCCBC71F1AF24AB90028C825 /* FMDatabaseQueue.m */,
+				CCCBC7201AF24AB90028C825 /* FMDB.h */,
+				CCCBC7211AF24AB90028C825 /* FMResultSet.h */,
+				CCCBC7221AF24AB90028C825 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		CCD43DE11AE3B45400EB91DF /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				CCD43DE41AE3B48600EB91DF /* Model */,
+				CCD43DE31AE3B47700EB91DF /* View */,
+				CCD43DE21AE3B46A00EB91DF /* Controller */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		CCD43DE21AE3B46A00EB91DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC5BAF801AE27DF900018B7A /* FloTabBarController.h */,
+				CC5BAF811AE27DF900018B7A /* FloTabBarController.m */,
+				CC5F5C3A1AE0FBAD00816DF3 /* FloAuthorizeVC.h */,
+				CC5F5C3B1AE0FBAD00816DF3 /* FloAuthorizeVC.m */,
+				CC56DEA01AEBD49500896EB0 /* FloGuideVC.h */,
+				CC56DEA11AEBD49500896EB0 /* FloGuideVC.m */,
+				CC56DEA31AEBDE5E00896EB0 /* FloVCManager.h */,
+				CC56DEA41AEBDE5E00896EB0 /* FloVCManager.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CCD43DE31AE3B47700EB91DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CCD43DE41AE3B48600EB91DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CCD43DE51AE3B51C00EB91DF /* FloAuthorization.h */,
+				CCD43DE61AE3B51C00EB91DF /* FloAuthorization.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC5F5C091AE0ED0D00816DF3 /* Flo-Weibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5F5C2D1AE0ED0D00816DF3 /* Build configuration list for PBXNativeTarget "Flo-Weibo" */;
+			buildPhases = (
+				519482C8A985A9F02B974DE8 /* Check Pods Manifest.lock */,
+				CC5F5C061AE0ED0D00816DF3 /* Sources */,
+				CC5F5C071AE0ED0D00816DF3 /* Frameworks */,
+				CC5F5C081AE0ED0D00816DF3 /* Resources */,
+				DDA358F629E3C0E031BC147D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flo-Weibo";
+			productName = "Flo-Weibo";
+			productReference = CC5F5C0A1AE0ED0D00816DF3 /* Flo-Weibo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC5F5C221AE0ED0D00816DF3 /* Flo-WeiboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5F5C301AE0ED0D00816DF3 /* Build configuration list for PBXNativeTarget "Flo-WeiboTests" */;
+			buildPhases = (
+				CC5F5C1F1AE0ED0D00816DF3 /* Sources */,
+				CC5F5C201AE0ED0D00816DF3 /* Frameworks */,
+				CC5F5C211AE0ED0D00816DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC5F5C251AE0ED0D00816DF3 /* PBXTargetDependency */,
+			);
+			name = "Flo-WeiboTests";
+			productName = "Flo-WeiboTests";
+			productReference = CC5F5C231AE0ED0D00816DF3 /* Flo-WeiboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC5F5C021AE0ED0D00816DF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC5F5C091AE0ED0D00816DF3 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CC5F5C221AE0ED0D00816DF3 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CC5F5C091AE0ED0D00816DF3;
+					};
+				};
+			};
+			buildConfigurationList = CC5F5C051AE0ED0D00816DF3 /* Build configuration list for PBXProject "Flo-Weibo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC5F5C011AE0ED0D00816DF3;
+			productRefGroup = CC5F5C0B1AE0ED0D00816DF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC5F5C091AE0ED0D00816DF3 /* Flo-Weibo */,
+				CC5F5C221AE0ED0D00816DF3 /* Flo-WeiboTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC5F5C081AE0ED0D00816DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC56DE9F1AEBD22900896EB0 /* Images.xcassets in Resources */,
+				CC5F5C191AE0ED0D00816DF3 /* Main.storyboard in Resources */,
+				CC8E7E481B0052DD0011AAEE /* msgcome.wav in Resources */,
+				CCCBC7111AF21AB90028C825 /* weibo.db in Resources */,
+				CC5F5C1E1AE0ED0D00816DF3 /* LaunchScreen.xib in Resources */,
+				CC66E55A1AFC84630020FBB1 /* FloRepostComCellHeaderV.xib in Resources */,
+				CCA193531AFF2727009FF033 /* FloUserInfoHeaderV.xib in Resources */,
+				CC42A2811AFE545200D11ED3 /* img-2131165207.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5F5C211AE0ED0D00816DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		519482C8A985A9F02B974DE8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDA358F629E3C0E031BC147D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flo-Weibo/Pods-Flo-Weibo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC5F5C061AE0ED0D00816DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCBC72A1AF25AFC0028C825 /* FloHomeStatusCell.m in Sources */,
+				CCA193591AFF4C6A009FF033 /* FloUserInfoHomeCell.m in Sources */,
+				CCD8BE9B1B035E7400776856 /* FloPostStatusWithLocation.m in Sources */,
+				CC8E7E5A1B00732B0011AAEE /* FloUserinfoFriendsCell.m in Sources */,
+				CC37F8431AE1012D0029518B /* AFURLConnectionOperation.m in Sources */,
+				CC5A4F3C1AEDCB8A0099D82C /* FloAccountManagerTVC.m in Sources */,
+				CC5BAF5F1AE22F9100018B7A /* FloMessageTVC.m in Sources */,
+				CC5BAF7A1AE2651600018B7A /* FloDefaultCell.m in Sources */,
+				CC5BAF621AE2309D00018B7A /* FloFirstCell.m in Sources */,
+				CC53C2551B022FA6000B9998 /* FloUserinfoPhotoTVC.m in Sources */,
+				CC37F83E1AE1012D0029518B /* AFHTTPRequestOperation.m in Sources */,
+				CCD8BE981B03324A00776856 /* FloPostStatusWithPictureVC.m in Sources */,
+				CC53C2601B023A40000B9998 /* SDWaitingView.m in Sources */,
+				CC8E7E501B00723B0011AAEE /* FloUserinfoFavoriteTVC.m in Sources */,
+				CCA193561AFF4C4E009FF033 /* FloUserInfoPhotoCell.m in Sources */,
+				CC422C011AED0ACF00B41A92 /* FloStatusModel.m in Sources */,
+				CC37F8411AE1012D0029518B /* AFNetworkReachabilityManager.m in Sources */,
+				CC5BAF741AE264EE00018B7A /* FloIconCell.m in Sources */,
+				CC42A2791AFE368E00D11ED3 /* FloUserInfoTVC.m in Sources */,
+				CC4D875B1AF5204C00EF1552 /* FloBtnControl.m in Sources */,
+				CCCBC7231AF24AB90028C825 /* FMDatabase.m in Sources */,
+				CCA1935C1AFF8F63009FF033 /* FloFollowUserCell.m in Sources */,
+				CCD43DE71AE3B51C00EB91DF /* FloAuthorization.m in Sources */,
+				CC37F8461AE1012D0029518B /* AFURLSessionManager.m in Sources */,
+				CC66E5521AFC4CAF0020FBB1 /* FloRepostModel.m in Sources */,
+				CC66E54F1AFC4C9D0020FBB1 /* FloCommentsModel.m in Sources */,
+				CC5BAF821AE27DF900018B7A /* FloTabBarController.m in Sources */,
+				CC5A4F3F1AEDFCF00099D82C /* FloAccountCell.m in Sources */,
+				CC37F8441AE1012D0029518B /* AFURLRequestSerialization.m in Sources */,
+				CC5F5C3C1AE0FBAD00816DF3 /* FloAuthorizeVC.m in Sources */,
+				CC66E5581AFC82890020FBB1 /* FloRepostComCellHeaderV.m in Sources */,
+				CC9C7CBB1AFCE728005FF096 /* FloMessageDetailTVC.m in Sources */,
+				CC37F8451AE1012D0029518B /* AFURLResponseSerialization.m in Sources */,
+				CCCBC7271AF24AB90028C825 /* FMResultSet.m in Sources */,
+				CCCBC7261AF24AB90028C825 /* FMDatabaseQueue.m in Sources */,
+				CC5BAF6E1AE2597500018B7A /* FloMeTVC.m in Sources */,
+				CC5F5C131AE0ED0D00816DF3 /* AppDelegate.m in Sources */,
+				CC37F83F1AE1012D0029518B /* AFHTTPRequestOperationManager.m in Sources */,
+				CC37F8421AE1012D0029518B /* AFSecurityPolicy.m in Sources */,
+				CC5086D01AF9D4B200BE6802 /* FloCodeViewController.m in Sources */,
+				CCCBC7241AF24AB90028C825 /* FMDatabaseAdditions.m in Sources */,
+				CC6B9DA91AFBB21100993158 /* FloRepostComCell.m in Sources */,
+				CC42A27F1AFE44C500D11ED3 /* FloUserInfoHeaderV.m in Sources */,
+				CCCBC7151AF223390028C825 /* FloDatabaseEngin.m in Sources */,
+				CC5BAF651AE230B100018B7A /* FloSecondCell.m in Sources */,
+				CC5BAF7D1AE2696400018B7A /* FloUserInfo.m in Sources */,
+				CC5BAF771AE2650100018B7A /* FloCountCell.m in Sources */,
+				CC4D87531AF50D8300EF1552 /* FloSendMessageModelView.m in Sources */,
+				CC5086D51AF9DBD900BE6802 /* FloCodeResultVC.m in Sources */,
+				CCE9A8021AE401DA0009A2FE /* FloDiscoverTVC.m in Sources */,
+				CC66E5551AFC59D00020FBB1 /* FloUtilities.m in Sources */,
+				CC53C25F1B023A40000B9998 /* SDPhotoBrowser.m in Sources */,
+				CCD8BE951B0329AB00776856 /* FloAboutVC.m in Sources */,
+				CC5086CA1AF9B72700BE6802 /* FloPromptView.m in Sources */,
+				CC6B9DA61AFBB1C800993158 /* FloStatusDetailVC.m in Sources */,
+				CC5F5C361AE0FB2D00816DF3 /* FloSendMessageVC.m in Sources */,
+				CC5F5C101AE0ED0D00816DF3 /* main.m in Sources */,
+				CCC697D71AF3932E00A8D3E7 /* FloHomeStatusFooterCell.m in Sources */,
+				CC8E7E4D1B0072240011AAEE /* FloUserinfoFriendsTVC.m in Sources */,
+				CC56DEA21AEBD49500896EB0 /* FloGuideVC.m in Sources */,
+				CC5A4F391AEDCB560099D82C /* FloSettingTVC.m in Sources */,
+				CC56DEA51AEBDE5E00896EB0 /* FloVCManager.m in Sources */,
+				CC5086CD1AF9BFB800BE6802 /* FloUpdatePromptV.m in Sources */,
+				CCCBC7251AF24AB90028C825 /* FMDatabasePool.m in Sources */,
+				CC9C7CB81AFCE523005FF096 /* FloMessageCell.m in Sources */,
+				CC53C25E1B023A40000B9998 /* SDBrowserImageView.m in Sources */,
+				CC5BAF5C1AE22E1900018B7A /* FloHomeTVC.m in Sources */,
+				CC37F8401AE1012D0029518B /* AFHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5F5C1F1AE0ED0D00816DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5F5C2A1AE0ED0D00816DF3 /* Flo_WeiboTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC5F5C251AE0ED0D00816DF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC5F5C091AE0ED0D00816DF3 /* Flo-Weibo */;
+			targetProxy = CC5F5C241AE0ED0D00816DF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC5F5C171AE0ED0D00816DF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC5F5C181AE0ED0D00816DF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC5F5C1C1AE0ED0D00816DF3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC5F5C1D1AE0ED0D00816DF3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC5F5C2B1AE0ED0D00816DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC5F5C2C1AE0ED0D00816DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC5F5C2E1AE0ED0D00816DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CEAE974A84263E2E8F47F15 /* Pods-Flo-Weibo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Flo-Weibo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CC5F5C2F1AE0ED0D00816DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57061C3DC0A05410D83B3505 /* Pods-Flo-Weibo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Flo-Weibo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CC5F5C311AE0ED0D00816DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Flo-WeiboTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flo-Weibo.app/Flo-Weibo";
+			};
+			name = Debug;
+		};
+		CC5F5C321AE0ED0D00816DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Flo-WeiboTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flo-Weibo.app/Flo-Weibo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC5F5C051AE0ED0D00816DF3 /* Build configuration list for PBXProject "Flo-Weibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5F5C2B1AE0ED0D00816DF3 /* Debug */,
+				CC5F5C2C1AE0ED0D00816DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5F5C2D1AE0ED0D00816DF3 /* Build configuration list for PBXNativeTarget "Flo-Weibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5F5C2E1AE0ED0D00816DF3 /* Debug */,
+				CC5F5C2F1AE0ED0D00816DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5F5C301AE0ED0D00816DF3 /* Build configuration list for PBXNativeTarget "Flo-WeiboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5F5C311AE0ED0D00816DF3 /* Debug */,
+				CC5F5C321AE0ED0D00816DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC5F5C021AE0ED0D00816DF3 /* Project object */;
+}
